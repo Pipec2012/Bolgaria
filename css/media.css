@@ -1,0 +1,46 @@
+/*@media (max-width:724px){
+  .menu{display:none;}
+  .trigger{
+    display:inline-block;
+    margin:3px;
+    cursor:pointer;
+    float: right;
+   }
+   .trigger i{
+     display:block;
+     width:30px;
+     height:6px;
+     margin:4px auto;
+     background:white;
+     
+   }
+   .show{
+     display:block;
+   }
+}*/
+
+
+/* Планшеты Tablets 1200px-724px */
+
+
+@media screen and (max-width: 1200px) {
+
+        <!-- Меню -->
+      
+  .menu {
+    display:none;
+    float: right;
+    }
+
+    .trigger i{
+   display:block;
+   width:30px;
+   height:6px;
+   margin:4px auto;
+   background:white;
+   
+  }
+  .show{
+   display:block;
+  }
+}
